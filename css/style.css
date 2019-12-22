@@ -1,3 +1,5 @@
+
+
 /* Base */
 html {
   overflow-x: hidden; }
@@ -837,7 +839,7 @@ h1, h2, h3, h4, h5,
       position: relative;
       top: 3px; }
 
-.ftco-feature-1 {
+/*.ftco-feature-1 {
 
   border-radius: 20px;
 
@@ -866,6 +868,35 @@ h1, h2, h3, h4, h5,
   .ftco-feature-1 p {
     color: white; }
 
+  .ftco-feature-1:hover, .ftco-feature-1.active {
+    -webkit-box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1); }
+*/
+.ftco-feature-1 {
+
+  text-align: center;
+  padding-top: 30px;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  background: rgba(152, 152, 152,0.12);/*#989898*/ 
+height :500px;
+border-radius: 25px;
+}
+  .ftco-feature-1 .icon {
+    font-size: 70px;
+    color: #f23a2e; }
+  .ftco-feature-1 .ftco-feature-1-text {
+    
+    padding: 30px; }
+  .ftco-feature-1 h2 {
+    font-size: 20px;
+  color: white;
+    font-weight: bold; }
+  .ftco-feature-1 p {
+    /*color: #989898;*/
+    color: rgba(255,255,255); }
+    
   .ftco-feature-1:hover, .ftco-feature-1.active {
     -webkit-box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1); }
