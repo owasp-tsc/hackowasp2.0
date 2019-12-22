@@ -148,8 +148,9 @@ h1, h2, h3, h4, h5,
     background-color: black;}
 
 .site-section {
-  padding: 2.5em 0; 
-background-color: #000000;}
+  background-color: black;
+  padding: 2.5em 0; }
+
   @media (min-width: 768px) {
     .site-section {
       padding: 5em 0;
@@ -838,12 +839,17 @@ background-color: #000000;}
 
 .ftco-feature-1 {
 
+  border-radius: 20px;
+
   text-align: center;
+   height:340px;
   padding-top: 30px;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
+
   background: black; }
+
 
   .ftco-feature-1 .icon {
     font-size: 70px;
@@ -852,6 +858,7 @@ background-color: #000000;}
     
     padding: 30px; }
   .ftco-feature-1 h2 {
+    color: white;
     font-size: 20px;
 
     font-weight: bold;
@@ -898,7 +905,9 @@ padding-bottom: 10px;
 }
 .section-heading .heading {
 
+
   color: #F23A2E;
+
 
   font-size: 2.5rem;
   font-weight: 900; }
@@ -1037,6 +1046,7 @@ padding-bottom: 10px;
   }
 
 .footer-section {
+
   padding-top: 12rem !important;   
   background-color: #000000; }
 
@@ -1047,9 +1057,3 @@ padding-bottom: 10px;
   color: #FFF;
 }
 
-body {
-    line-height: 1.7;
-    font-weight: 300;
-    font-size: 1.1rem;
-    color: #FFF;
-}
