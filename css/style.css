@@ -6,8 +6,10 @@ body {
   line-height: 1.7;
   font-weight: 300;
   font-size: 1.1rem;
-  color: #989898; 
+  color: rgba(255,255,255,.7); 
+background-color: black;}
 }
+
 
 
 ::-moz-selection {
@@ -370,7 +372,8 @@ background-color: #000000;}
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-size: 22px; }
+    font-size: 22px;
+}
   .select-wrap select, .wrap-icon select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -840,24 +843,22 @@ background-color: #000000;}
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  background: rgba(152, 152, 152,0.12);/*#989898*/ 
-height :500px;
-border-radius: 25px;
-}
+  background: black; }
+
   .ftco-feature-1 .icon {
     font-size: 70px;
-    color: #f23a2e; }
+    color: orange; }
   .ftco-feature-1 .ftco-feature-1-text {
     
     padding: 30px; }
   .ftco-feature-1 h2 {
     font-size: 20px;
-  color: white;
-    font-weight: bold; }
+
+    font-weight: bold;
+    color: white; }
   .ftco-feature-1 p {
-    /*color: #989898;*/
-    color: rgba(255,255,255); }
-    
+    color: white; }
+
   .ftco-feature-1:hover, .ftco-feature-1.active {
     -webkit-box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.1); }
@@ -884,7 +885,7 @@ border-radius: 25px;
       background: #f23a2e; }
 
 .section-heading .subheading {
-  color: #ababab;
+  color: #f89d13;
   font-size: 1.2rem; }
 .benefits-text {
  color: white;
@@ -896,6 +897,9 @@ border-radius: 25px;
 padding-bottom: 10px;  
 }
 .section-heading .heading {
+
+  color: #F23A2E;
+
   font-size: 2.5rem;
   font-weight: 900; }
 
@@ -1010,7 +1014,7 @@ padding-bottom: 10px;
   margin-bottom: 30px; }
 
 .person .position {
-  color: #ccc;
+  color: white;
   margin-bottom: 20px;
   text-transform: uppercase;
   font-size: 13px;
@@ -1018,7 +1022,8 @@ padding-bottom: 10px;
 
 .person h3 {
   font-size: 18px;
-  font-weight: bold; }
+  font-weight: bold;
+  color: white; }
 
 .person p {
   font-size: 15px; }
