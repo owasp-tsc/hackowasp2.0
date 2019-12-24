@@ -985,9 +985,9 @@ padding-bottom: 10px;
     background: #f23a2e;
     padding: 10px 10px; }
     .class-item:hover h2 {
-      color: #fff; }
+      color: black; }
     .class-item:hover p, .class-item:hover span {
-      color: #ff7c67; }
+      color: black; }
     .container:hover .class-item{
       opacity: 0.5;
     }
