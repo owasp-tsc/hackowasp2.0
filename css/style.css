@@ -1,4 +1,6 @@
-
+img[alt="www.000webhost.com"]{
+    display:none;
+}
 
 /* Base */
 html {
@@ -717,6 +719,7 @@ h1, h2, h3, h4, h5,
     position: relative; }
   .intro-section, .intro-section .container .row {
     height: 100vh;
+
     min-height: 900px; }
   .intro-section:before {
     content: "";
@@ -734,7 +737,7 @@ h1, h2, h3, h4, h5,
   .intro-section:after {
     content: "";
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.85);
     top: 0;
     left: 0;
     right: 0;
@@ -790,8 +793,8 @@ h1, h2, h3, h4, h5,
     font-weight: bold; }
   .schedule-wrap .cta a {
     text-align: center;
-    background: #f89d13;
-    color: #fff;
+    background: rgba(0,0,0,0.2);
+    color: rgba(255,255,255,0.8);
     padding: 10px 20px; }
     .schedule-wrap .cta a .arrow {
       font-size: 1.2rem;
@@ -833,13 +836,14 @@ h1, h2, h3, h4, h5,
     font-weight: bold; }
   .schedule-wrap2 .cta a {
     text-align: center;
-    background: #f89d13;
-    color: #fff;
+    background: rgba(0,0,0,0.2);
+    color: rgba(255,255,255,0.8);
     padding: 10px 20px; }
     .schedule-wrap2 .cta a .arrow {
       font-size: 1.2rem;
       position: relative;
       top: 3px; }
+
 
 /*.ftco-feature-1 {
 
@@ -996,9 +1000,9 @@ padding-bottom: 10px;
     background: #f23a2e;
     padding: 10px 10px; } }
     .class-item:hover h2 {
-      color: #fff; }
+      color: white; }
     .class-item:hover p, .class-item:hover span {
-      color: #ff7c67; }
+      color: rgba(255,255,255,0.7); }
     .container:hover .class-item{
       opacity: 0.5;
     }
@@ -1107,6 +1111,38 @@ padding-bottom: 10px;
   padding-bottom: 8rem !important; 
   }
 
+
+.QR_tag {
+  padding-bottom: 10px;
+  /*  margin:0 10px;*/
+  width: 150px;
+  text-align: center;
+}
+.c1{
+width: 150px;
+display: inline-block;
+ margin:5px 10px;
+
+}
+.img-payment{
+ 
+  width: 150px;
+
+}
+.payment-info-text{
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  width: 350px;
+}
+
+
+@media(max-width: 1200px)  {
+  .payment-info-text{
+  text-align: left;
+
+  }
+}
 .footer-section {
 
   padding-top: 12rem !important;   
@@ -1118,6 +1154,34 @@ padding-bottom: 10px;
 .section-heading h2{
   color: #FFF;
 }
+/***************************************************************/
+.alt_ml-auto{
+      margin-left: auto!important
+}
 
+@media (max-width: 800px){
+.footer_mobile{
+  padding-top: 25px;
+  display: table;
+  margin: auto;
+  
+  }
+.alt_ml-auto{
+}
+.box_for_links{
+  width:100vw!important;
+  text-align: center!important;
+}
+.qr_mobile{
+  width: 100%;
+}
+.img-payment{
+  display: table;
+  margin: auto;
+}
+.QR_tag{
+  display: table;
+  margin: auto;
+}
 
 
