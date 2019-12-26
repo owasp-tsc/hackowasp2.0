@@ -1158,6 +1158,9 @@ display: inline-block;
 .alt_ml-auto{
       margin-left: auto!important
 }
+#img_gallery{
+  padding-top: 170px;
+}
 
 @media (max-width: 800px){
 .footer_mobile{
@@ -1182,6 +1185,10 @@ display: inline-block;
 .QR_tag{
   display: table;
   margin: auto;
+}
+#img_gallery{
+  padding-top: 230px;
+}
 }
 
 
