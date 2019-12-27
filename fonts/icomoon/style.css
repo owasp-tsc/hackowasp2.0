@@ -2855,6 +2855,7 @@
 }
 .icon-close2:before {
   content: "\e5cd";
+  color: white!important;
 }
 .icon-clear_all:before {
   content: "\e0b8";
