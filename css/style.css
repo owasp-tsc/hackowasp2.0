@@ -1154,6 +1154,7 @@ display: inline-block;
 .section-heading h2{
   color: #FFF;
 }
+
 /***************************************************************/
 .alt_ml-auto{
       margin-left: auto!important
@@ -1161,7 +1162,9 @@ display: inline-block;
 #img_gallery{
   padding-top: 170px;
 }
-
+.nav-home{
+  color: white;
+}
 @media (max-width: 800px){
 .footer_mobile{
   padding-top: 25px;
@@ -1189,6 +1192,13 @@ display: inline-block;
 #img_gallery{
   padding-top: 230px;
 }
+.nav-home{
+color: white;
 }
+.nav-mobile{
+  background-color: #4b4b4b;
+}
+}
+
 
 
